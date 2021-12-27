@@ -3,9 +3,9 @@ import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 const routes: RouteRecordRaw[] = [
   {
     path: '/',
-    name: 'Login',
-    component: () => import('@/pages/login/Login.vue'),
-  },
+    name: 'Desktop',
+    component: () => import('../views/Desktop.vue')
+  }
 ]
 
 const router = createRouter({
